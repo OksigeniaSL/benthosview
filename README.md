@@ -9,11 +9,16 @@ who know how to read them. A recording stops being a flat timeline and becomes a
 you can navigate.
 
 It was born underwater — marine biology and benthic habitat mapping in the Canary
-Islands — and it is built to reach the surface too: coastal and UAV/drone corridors,
-infrastructure inspection, any survey where a camera moves through space and *location*
-is the point.
+Islands — but the idea travels. It fits anywhere a camera goes that people can't easily
+reach, and where *where you are* is half the data: **caves and lava tubes, forests and
+wetlands, coastlines, tunnels and infrastructure, UAV/drone corridors.** If it is easier
+to film a place than to walk it, Benthos turns the footage into a map you can read.
 
 Built by **[Oksigenia SL](https://oksigenia.com)**.
+
+![BenthosView — 3D seabed terrain with the survey track over depth-coloured relief](docs/img/3d-terrain.png)
+
+<sup>3D terrain reconstructed from survey soundings, with the dive track, depth palette, sun and tide controls. *Synthetic data shown.*</sup>
 
 > **This repository is the free viewer.** The engine that *creates* the content —
 > ingest, georeferencing, user roles, GIS export, 3D from real elevation, cloud video —
