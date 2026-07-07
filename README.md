@@ -16,9 +16,9 @@ to film a place than to walk it, Benthos turns the footage into a map you can re
 
 Built by **[Oksigenia SL](https://oksigenia.com)**.
 
-![BenthosView — 3D seabed terrain with the survey track over depth-coloured relief](docs/img/3d-terrain.png)
+![BenthosView — the viewer: map track, synced video, telemetry and depth profile](docs/img/viewer-2d.png)
 
-<sup>3D terrain reconstructed from survey soundings — dive track, annotation points and areas, depth contours (isobaths), palette and sun controls. *Synthetic data shown.*</sup>
+<sup>The viewer at a glance: dive track on the map, synced video, live telemetry and the depth profile — all linked. Demo footage: NOAA Okeanos Explorer (public domain); track and annotations are synthetic.</sup>
 
 > **This repository is the free viewer.** The engine that *creates* the content —
 > ingest, georeferencing, user roles, GIS export, 3D from real elevation, cloud video —
@@ -50,6 +50,10 @@ Built by **[Oksigenia SL](https://oksigenia.com)**.
   coordinates (lat/long *and* UTM), depth, heading and CRS/datum baked in: survey-grade,
   not just a picture.
 - 📐 **Units your way** — metric, imperial or nautical.
+
+![BenthosView — 3D terrain with annotations and isobaths](docs/img/3d-terrain.png)
+
+<sup>The same survey in 3D: reconstructed terrain, annotation points and areas, isobaths, depth palette and sun controls. *Synthetic data.*</sup>
 
 ## Works offline, everywhere — BenthosView Lite
 
