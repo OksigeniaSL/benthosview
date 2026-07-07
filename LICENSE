@@ -1,0 +1,28 @@
+BenthosView — Proprietary Software License
+Copyright © 2026 Oksigenia SL. All rights reserved.
+
+This software — the "BenthosView" viewer, including its compiled binary installers
+and any source code made available in this repository — is proprietary to Oksigenia SL.
+
+The binary installers published in this repository are provided free of charge for the
+sole purpose of viewing content produced with the Benthos platform. No other rights are
+granted, by implication, estoppel or otherwise.
+
+Without the prior written permission of Oksigenia SL, you may NOT:
+  - copy, redistribute, rent, lease, sell or sublicense the software;
+  - modify, adapt, translate or create derivative works based on the software;
+  - reverse engineer, decompile or disassemble the software, except and only to the
+    extent that this restriction cannot be excluded under applicable law (for example,
+    where such acts are permitted for interoperability under mandatory law);
+  - remove, obscure or alter any copyright, trademark or other proprietary notice.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL OKSIGENIA SL BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+"Benthos", "BenthosView" and the Oksigenia name and logos are trademarks of Oksigenia SL.
+
+Licensing enquiries: info@oksigenia.com — https://oksigenia.com

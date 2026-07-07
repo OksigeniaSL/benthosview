@@ -123,5 +123,9 @@ explore and share:
 Built by **[Oksigenia SL](https://oksigenia.com)**. Benthos is developed with, and for,
 the people who actually read the seafloor.
 
-© Oksigenia SL — proprietary software. Binaries are published here; the platform source
-is kept private.
+## License
+
+**© 2026 Oksigenia SL — all rights reserved.** BenthosView is proprietary software. The
+binaries here are published free of charge for viewing Benthos content, and may not be
+redistributed, modified or reverse-engineered. See **[LICENSE](LICENSE)**. The platform
+source is kept private.
