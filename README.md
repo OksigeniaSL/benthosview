@@ -18,7 +18,7 @@ Built by **[Oksigenia SL](https://oksigenia.com)**.
 
 ![BenthosView — 3D seabed terrain with the survey track over depth-coloured relief](docs/img/3d-terrain.png)
 
-<sup>3D terrain reconstructed from survey soundings, with the dive track, depth palette, sun and tide controls. *Synthetic data shown.*</sup>
+<sup>3D terrain reconstructed from survey soundings — dive track, annotation points and areas, depth contours (isobaths), palette and sun controls. *Synthetic data shown.*</sup>
 
 > **This repository is the free viewer.** The engine that *creates* the content —
 > ingest, georeferencing, user roles, GIS export, 3D from real elevation, cloud video —
