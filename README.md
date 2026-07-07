@@ -29,20 +29,27 @@ Built by **[Oksigenia SL](https://oksigenia.com)**.
 
 ## What the viewer does
 
-- 🎥 **Video in sync with telemetry** — footage and position move together, both ways:
-  scrub the video and the marker follows; click the map or the depth profile and the
-  video jumps there.
+- 🎥 **Everything in sync** — video, map track and 3D terrain move together, both ways:
+  scrub the video and the marker follows on the map *and* in 3D; click the map, the 3D
+  scene or the depth profile and the video jumps to that instant. One survey, three
+  linked views.
 - 🗺️ **2D track** over real cartography — satellite, bathymetry (EMODnet), orthophotos,
   nautical charts; layers switchable per view.
-- ⛰️ **3D seafloor terrain** — orbit it, exaggerate the relief, move the sun, choose the
-  depth palette; compare several dives side by side in split-screen.
+- ⛰️ **3D terrain** — orbit, tilt and zoom; vertical exaggeration, depth / slope /
+  shaded-sediment surfaces, isobaths (contour lines), a compass and a live slope
+  (inclination) readout.
+- ☀️ **Light and hillshade** — steer the sun by azimuth and elevation, or set the *real*
+  solar position from date, time and place, for hillshaded relief that reveals fine
+  structure.
 - 📍 **Georeferenced annotations** — points, segments and *areas*, with per-area depth
   statistics: species, habitats, substrates, anything worth marking.
+- 📈 **Depth / elevation profile** — along the whole run, by distance or by time (works
+  above water too, as a surface-elevation profile).
 - 🌊 **Tide-aware depths** — soundings referenced to datum, with tide along the run.
-- 📈 **Depth and navigation profile** — heading, depth, temperature and more, along the
-  whole run.
-- 📷 **Frame and 3D-view capture** — with coordinates in both lat/long and UTM, tagged
-  with their CRS/datum (EPSG), so a capture is survey-grade, not just a picture.
+- 📷 **Frame and 3D-view capture *with data*** — save a video frame or a 3D view with its
+  coordinates (lat/long *and* UTM), depth, heading and CRS/datum baked in: survey-grade,
+  not just a picture.
+- 📐 **Units your way** — metric, imperial or nautical.
 
 ## Works offline, everywhere — BenthosView Lite
 
@@ -73,6 +80,25 @@ public-sector deployments. The interface ships with a **curated accessibility pa
 accessible-by-design base: keyboard navigation, semantic markup and screen-reader-friendly
 controls.
 
+## Gallery
+
+The same 3D engine, different terrain, viewpoint, vertical exaggeration and surface
+shading — bathymetric, slope (habitat) or shaded-sediment, with isobaths and a wireframe
+mesh.
+
+<table>
+<tr>
+<td width="50%"><img src="docs/img/g1-seamount.png" alt="Submarine mount in 3D with isobaths and a spiral survey track"><br><sub><b>Submarine mount</b> — marine palette, isobaths, 5× exaggeration.</sub></td>
+<td width="50%"><img src="docs/img/g2-canyon.png" alt="Top-down bathymetric-chart view of a channel with contour lines"><br><sub><b>Top-down chart view</b> — channel corridor, contour lines.</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="docs/img/g3-ridge.png" alt="High-relief ridges shaded by slope, 7x vertical exaggeration"><br><sub><b>High-relief ridges</b> — slope (habitat) shading, 7× exaggeration.</sub></td>
+<td width="50%"><img src="docs/img/g4-shelf.png" alt="Shelf break with a wireframe mesh over shaded sediment"><br><sub><b>Shelf break</b> — wireframe mesh over shaded sediment.</sub></td>
+</tr>
+</table>
+
+<sup>All images use synthetic data — no client material.</sup>
+
 ---
 
 ## The Benthos platform
@@ -83,13 +109,15 @@ them. It is self-hosted, one deployment per organization, and it stays yours: yo
 your infrastructure, your rules.
 
 ### Turn raw footage into a georeferenced survey
+- **Compare up to four dives at once** — multiple 3D windows, **detachable** and
+  independently controlled, side by side or across screens, all fed from the same synced
+  video / map / 3D model.
 - **Ingest & georeferencing** — match video to navigation telemetry, build the track,
   align every frame to a real-world position.
 - **3D terrain from real elevation** — reconstruct the seafloor (or terrain) from actual
   DEM data, not a decorative surface.
 - **Annotation workflows** — points, segments and areas with structured attributes;
   species, habitats and substrates recorded where they were seen, ready to export as data.
-- **Multi-window 3D comparison** — study several dives at once, side by side.
 
 ### Built for teams, built to interoperate
 - **User roles & access control** — administrators, editors and viewers, with
