@@ -27,14 +27,17 @@ Built by **[Oksigenia SL](https://oksigenia.com)**.
 - 🎥 **Video in sync with telemetry** — footage and position move together, both ways:
   scrub the video and the marker follows; click the map or the depth profile and the
   video jumps there.
-- 🗺️ **2D track** over real cartography — satellite, bathymetry, orthophotos, charts.
-- ⛰️ **3D seafloor terrain** — orbit it, exaggerate the relief, move the sun; compare
-  several dives side by side.
-- 📍 **Georeferenced annotations** — points, segments and areas: species, habitats,
-  substrates, anything worth marking.
+- 🗺️ **2D track** over real cartography — satellite, bathymetry (EMODnet), orthophotos,
+  nautical charts; layers switchable per view.
+- ⛰️ **3D seafloor terrain** — orbit it, exaggerate the relief, move the sun, choose the
+  depth palette; compare several dives side by side in split-screen.
+- 📍 **Georeferenced annotations** — points, segments and *areas*, with per-area depth
+  statistics: species, habitats, substrates, anything worth marking.
+- 🌊 **Tide-aware depths** — soundings referenced to datum, with tide along the run.
 - 📈 **Depth and navigation profile** — heading, depth, temperature and more, along the
   whole run.
-- 📷 **Frame and 3D-view capture** with their coordinates and data attached.
+- 📷 **Frame and 3D-view capture** — with coordinates in both lat/long and UTM, tagged
+  with their CRS/datum (EPSG), so a capture is survey-grade, not just a picture.
 
 ## Works offline, everywhere — BenthosView Lite
 
@@ -56,6 +59,14 @@ Windows (`.exe` / `.msi`), macOS (`.dmg`), Linux (`.AppImage` / `.deb`).
 Full interface in **six languages** — English, Spanish, Portuguese, French, German and
 Italian — with an in-house i18n engine and per-user / per-install selection. Scientific
 vocabulary is deliberately kept untranslated.
+
+## Built to be accessible
+
+Accessibility is a first-class feature, not an afterthought — and a hard requirement for
+public-sector deployments. The interface ships with a **curated accessibility panel**
+(text size, contrast, reduced motion, focus aids and more) on top of an
+accessible-by-design base: keyboard navigation, semantic markup and screen-reader-friendly
+controls.
 
 ---
 
