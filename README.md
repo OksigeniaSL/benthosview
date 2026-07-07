@@ -113,6 +113,7 @@ If you produce georeferenced video and need to turn it into data people can read
 explore and share:
 
 - 🌐 **[oksigenia.com](https://oksigenia.com)**
+- ✉️ **[info@oksigenia.com](mailto:info@oksigenia.com)**
 - 💼 Oksigenia SL — infrastructure, self-hosted AI and data sovereignty.
 
 *Get in touch to see the full platform, discuss a deployment, or request a demo.*
