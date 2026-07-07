@@ -18,7 +18,7 @@ Built by **[Oksigenia SL](https://oksigenia.com)**.
 
 ![BenthosView — the viewer: map track, synced video, telemetry and depth profile](docs/img/viewer-2d.png)
 
-<sup>The viewer at a glance: dive track on the map, synced video, live telemetry and the depth profile — all linked. Demo footage: NOAA Okeanos Explorer (public domain); track and annotations are synthetic.</sup>
+<sup>The viewer at a glance: the survey transect at sea, synced video, live telemetry and the depth profile — all linked. Demo footage: NOAA Okeanos Explorer (public domain); track and annotations are synthetic.</sup>
 
 > **This repository is the free viewer.** The engine that *creates* the content —
 > ingest, georeferencing, user roles, GIS export, 3D from real elevation, cloud video —
