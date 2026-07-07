@@ -65,7 +65,14 @@ required — no account, no server, no connection.
 ### Download
 
 Installers are in **[Releases](https://github.com/OksigeniaSL/benthosview/releases)** —
-Windows (`.exe` / `.msi`), macOS (`.dmg`), Linux (`.AppImage` / `.deb`).
+Windows (`.exe` / `.msi`), macOS `.dmg` (universal — Intel & Apple Silicon),
+Linux (`.AppImage` / `.deb` / `.rpm`).
+
+**First run — the builds are not code-signed yet, so your OS may warn:**
+- **macOS**: right-click the app → **Open**, then **Open** again (only the first time).
+- **Windows**: on the SmartScreen prompt, click **More info → Run anyway**.
+
+Each release ships a `SHA256SUMS.txt` so you can verify your download is intact.
 
 > On Linux, H.264 playback needs the GStreamer codecs (`gstreamer1.0-libav`,
 > `gstreamer1.0-plugins-good`); the `.deb` package already declares them.
