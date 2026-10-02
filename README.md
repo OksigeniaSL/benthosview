@@ -69,7 +69,9 @@ Windows (`.exe` / `.msi`), macOS `.dmg` (universal — Intel & Apple Silicon),
 Linux (`.AppImage` / `.deb` / `.rpm`).
 
 **First run — the builds are not code-signed yet, so your OS may warn:**
-- **macOS**: right-click the app → **Open**, then **Open** again (only the first time).
+- **macOS**: open the `.dmg` and drag BenthosView to **Applications**. The first time you open it, macOS may say it
+  cannot verify the app: go to **System Settings → Privacy & Security** and click **Open Anyway**
+  (on macOS 14 or earlier, right-click the app → **Open** also works).
 - **Windows**: on the SmartScreen prompt, click **More info → Run anyway**.
 
 Each release ships a `SHA256SUMS.txt` so you can verify your download is intact.
