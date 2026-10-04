@@ -1,0 +1,13 @@
+# Funding options for BenthosView
+#
+# Benthos View es y será **gratis para el cliente del editor Benthos**.
+# Eso no es una promesa de que el proyecto vaya a existir siempre: es una
+# promesa de que, mientras exista, no se le cobrará a un cliente que necesite tener un visor libre de uso.
+#
+# Lo que cuesta dinero de verdad es el desarrollo del proyecto principal y la contratación del
+# producto Benthos.app por parte del organismo investigador pertinente.
+# Para poder seguir ofreciendo este desarrollo de visor Lite al cliente final se requiere tiempo
+# y dedicación, es por eso que la empresa matriz, Oksigenia SL, ofrece la posibilidad de colaborar
+# con una colaboración voluntaria para tratar de costear los gastos relacionados.
+liberapay: Oksigenia
+custom: ['https://www.paypal.com/donate/?business=paypal@oksigenia.cc&currency_code=EUR']
